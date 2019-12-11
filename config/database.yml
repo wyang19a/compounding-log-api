@@ -7,8 +7,8 @@ default: &default
 
 development:
   <<: *default
-  database: <%= project_name %>_development
+  database: compounding_log_api_development
 
 test:
   <<: *default
-  database: <%= project_name %>_test
+  database: compounding_log_api_test
