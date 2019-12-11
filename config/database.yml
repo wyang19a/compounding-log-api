@@ -1,4 +1,4 @@
-<% project_name = 'compounding-log' %>
+<% project_name = 'compounding-log-api' %>
 
 default: &default
   adapter: postgresql
